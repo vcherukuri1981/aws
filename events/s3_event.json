@@ -1,0 +1,10 @@
+{
+  "Records": [
+    {
+      "s3": {
+        "bucket": { "name": "vcheruk3imageuploadbucket" },
+        "object": { "key": "yellowparrot.jpeg" }
+      }
+    }
+  ]
+}
