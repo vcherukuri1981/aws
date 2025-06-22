@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Image Describer Lambda (AWS SAM)
 
 This project provides an AWS Lambda function (deployed with AWS SAM) that automatically generates a JSON description for any image uploaded to a source S3 bucket, using AWS Rekognition. The JSON is stored in a destination S3 bucket with the same base name as the image.
@@ -174,3 +175,6 @@ aws iam delete-role --role-name <your-lambda-role-name>
 ---
 
 **Project complete!**
+=======
+## AWS Repository
+>>>>>>> 8e7fd8e26d0d3163e10ac3458cc618dde72022d4
