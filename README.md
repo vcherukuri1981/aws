@@ -10,7 +10,7 @@ This project demonstrates a serverless AWS Lambda application using AWS SAM that
 - AWS SAM CLI installed ([Install Guide](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-install.html))
 - Docker installed ([Install Guide](https://docs.docker.com/get-docker/))
 - Python 3.9+ installed ([Download](https://www.python.org/downloads/))
-- Access to an AWS S3 bucket and a PostgreSQL database (RDS or local)
+- Access to an AWS S3 bucket and a PostgreSQL database (RDS or local) - Database already created.
 
 ---
 
@@ -196,7 +196,7 @@ sam delete --stack-name file-processor-lambda
 - AWS SAM CLI installed
 - Docker installed (for local testing)
 - Python 3.9+ installed
-- PostgreSQL client (for local DB testing, optional)
+- PostgreSQL Database configured and client (for local DB testing, optional)
 
 ---
 
