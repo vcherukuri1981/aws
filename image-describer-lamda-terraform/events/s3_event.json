@@ -1,0 +1,10 @@
+{
+  "Records": [
+    {
+      "s3": {
+        "bucket": { "name": "image-dest-improved-mako" },
+        "object": { "key": "yellowparrot.jpeg" }
+      }
+    }
+  ]
+}

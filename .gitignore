@@ -1,0 +1,23 @@
+# Terraform state and build files
+terraform/**/.terraform/
+terraform/**/terraform.tfstate*
+terraform/**/.terraform.lock.hcl
+
+# AWS SAM build artifacts
+image-describer-lambda/.aws-sam/
+
+# Python cache and virtualenvs
+**/__pycache__/
+**/.venv/
+**/venv/
+
+# Local test images or data
+image-describer-lambda/src/*.jpeg
+
+# VSCode and OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
